@@ -79,6 +79,7 @@ Array.prototype.partsForHits = function (n){
 }
 console.log('Parts for hits', hits.partsForHits(2))
 console.log('Parts for bullets shot', bullets.partsForHits(3))
+console.log('Why doesn\'t Niyaz play in MGR?')
 //--------------------------------------------------------------------------
 //Большой пример. В части кода до массивов я добавлял функции параметры и использовал их для объекта Raiden.
 //Во второй части кода я использовал глобальный прототип массивов и привязвл к нему функцию partsForHits.
