@@ -55,13 +55,13 @@ const raiden = new CoolGuys({
     augments: 'Full body',
     motivation: 100,
 })
-const knight = new InfoAboutHeroes({
+const testKnight = new InfoAboutHeroes({
     name: 'Nameless',
     weapon: 'Sword',
     isDead: false,
     age: 'Unknown'
 })
-console.log(knight)
+console.log(testKnight)
 console.log(samuel)
 console.log(raiden.trueMotivation)
 console.log(raiden)
