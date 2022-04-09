@@ -10,6 +10,7 @@ class InfoAboutHeroes {
         this.weapon = heroInfo.weapon
         this.isDead = heroInfo.isDead
         this.age = heroInfo.age
+        delete this.age
     }
     quote(){
     console.log('You deny your weapon its purpose')
